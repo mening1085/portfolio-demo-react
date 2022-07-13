@@ -19,7 +19,7 @@
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem;
+  padding: 2rem !important;
 }
 
 .swiper-slide {

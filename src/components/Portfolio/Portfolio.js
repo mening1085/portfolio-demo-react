@@ -152,6 +152,9 @@ export default function Portfolio() {
                   stack={portfolio.stack}
                   description={portfolio.description}
                   url={portfolio.url}
+                  onClick={() =>
+                    portfolio.url ? window.open(portfolio.url) : ""
+                  }
                 />
               </SwiperSlide>
             ))}

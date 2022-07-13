@@ -11,7 +11,7 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 
-const pages = ["About", "Portfolio",  "Contact"];
+const pages = ["About", "Portfolio", "Contact"];
 const socials = [
   { icon: "fab fa-facebook", url: "https://www.facebook.com/" },
   { icon: "fab fa-instagram", url: "https://www.instagram.com/" },
@@ -33,7 +33,7 @@ const Header = ({ handleScroll }) => {
 
   return (
     <AppBar
-      position="static"
+      position="fixed"
       sx={{
         backgroundColor: "#212121",
         minHeight: "68.5px",

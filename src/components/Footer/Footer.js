@@ -14,7 +14,7 @@ export default function Footer() {
         justifyContent: "center",
       }}
     >
-      "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quis"
+      Copyright © 2022. Created By XMMEENN
     </Box>
   );
 }
