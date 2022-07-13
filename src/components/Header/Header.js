@@ -11,7 +11,7 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 
-const pages = ["About", "Portfolio", "Blog", "Contact"];
+const pages = ["About", "Portfolio",  "Contact"];
 const socials = [
   { icon: "fab fa-facebook", url: "https://www.facebook.com/" },
   { icon: "fab fa-instagram", url: "https://www.instagram.com/" },
