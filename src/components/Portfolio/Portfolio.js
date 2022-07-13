@@ -119,7 +119,6 @@ export default function Portfolio() {
     <Container maxWidth="xl">
       <Box
         sx={{
-          marginLeft: "-4rem",
           textDecorationColor: "#ededed",
           marginBottom: "1.5rem",
           fontWeight: "600",

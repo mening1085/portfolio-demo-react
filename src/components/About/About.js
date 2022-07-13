@@ -11,10 +11,9 @@ export default function About() {
         justifyContent: "center",
       }}
     >
-      <Grid item xs={12} md={8}>
+      <Grid item xs={12} sm={12} md={8}>
         <Box
           sx={{
-            marginLeft: "-4rem",
             textDecorationColor: "#212121",
             marginBottom: "1.5rem",
             fontWeight: "600",
@@ -113,11 +112,12 @@ export default function About() {
         </Box>
       </Grid>
 
-      <Grid item xs={12} md={4}>
+      <Grid item xs={12} sm={12} md={4}>
         <img
           src={require("../../asset/images/people1.png")}
           alt="XMMEENN"
-          sx={{ width: "100%", height: "auto" }}
+          width={"100%"}
+          sx={{ height: "auto", objectFit: "contain" }}
         />
       </Grid>
     </Grid>
