@@ -1,5 +1,28 @@
 const Portfolios = [
   {
+    title: "TN Logistics",
+    image: "../../asset/images/project/thumbnail/tnl.jpg",
+    stack: "VueJS, Laravel",
+    description: "",
+    url: "https://tnlogistic.com/login",
+  },
+  {
+    title: "TCDC Connect by CEA",
+    image: "../../asset/images/project/thumbnail/connect-cea.png",
+    stack: "VueJS, Laravel",
+    description:
+      "เป็นเว็บไซต์ที่รวบรวมรายชื่อนักออกแบบในไทยและผลงานต่างๆของพวกเขา จัดทำให้กับทาง  CONNECT by CEA ที่เป็นส่วนหนึ่งในงานบริการภาคธุรกิจและการออกแบบของสำนักงานส่งเสริมเศรษฐกิจสร้างสรรค์(สศส.)",
+    url: "https://connect.cea.or.th/",
+  },
+  {
+    title: "DITP Thai Trade Center",
+    image: "../../asset/images/project/thumbnail/ditp.jpg",
+    stack: "VueJS, Laravel",
+    description:
+      "เป็นเว็บไซต์แสดงข้อมูล Event หรือ ข่าวสารต่างๆ ของ The Department of International Trade Promotion",
+    url: "https://thaitradeusa.com",
+  },
+  {
     title: "AEON METAVERSE virtual Party 2022",
     image: "../../asset/images/project/thumbnail/AEON-Metaverse.jpg",
     stack: "Laravel",
@@ -21,22 +44,6 @@ const Portfolios = [
     description:
       " เว็บไซต์แสดงข้อมูลทรัพยากรชีวภาพจากฐานข้อมูล ThaiBiodiversity / ข้อมูลทรัพยากรชีวภาพที่มีศักยภาพทางเศรษฐกิจ ของทางสํานักงานพัฒนาเศรษฐกิจจากฐานชีวภาพ(BEDO)",
     url: "http://www.nbbch.org/",
-  },
-  {
-    title: "TCDC Connect by CEA",
-    image: "../../asset/images/project/thumbnail/connect-cea.png",
-    stack: "VueJS, Laravel",
-    description:
-      "เป็นเว็บไซต์ที่รวบรวมรายชื่อนักออกแบบในไทยและผลงานต่างๆของพวกเขา จัดทำให้กับทาง  CONNECT by CEA ที่เป็นส่วนหนึ่งในงานบริการภาคธุรกิจและการออกแบบของสำนักงานส่งเสริมเศรษฐกิจสร้างสรรค์(สศส.)",
-    url: "https://connect.cea.or.th/",
-  },
-  {
-    title: "DITP Thai Trade Center",
-    image: "../../asset/images/project/thumbnail/ditp.jpg",
-    stack: "VueJS, Laravel",
-    description:
-      "เป็นเว็บไซต์แสดงข้อมูล Event หรือ ข่าวสารต่างๆ ของ The Department of International Trade Promotion",
-    url: "https://thaitradeusa.com",
   },
   {
     title: "Gosure Online",
@@ -100,6 +107,5 @@ const Portfolios = [
     url: "http://dip.ddc.moph.go.th/satdrowning/#/login",
   },
 ];
-
 
 export default Portfolios;

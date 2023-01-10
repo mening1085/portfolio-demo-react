@@ -1,5 +1,6 @@
 import { useRef } from "react";
-import { Box, Typography } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
+
 import "./App.css";
 import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer/Footer";
@@ -7,6 +8,9 @@ import Header from "./components/Header/Header";
 import { Container } from "@mui/system";
 import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
+import { Canvas } from "@react-three/fiber";
+import CanvasBox from "./components/Canvas/CanvasBox";
+import PhotoAlbum from "react-photo-album";
 
 function App() {
   // Ref
@@ -58,21 +62,20 @@ function App() {
         <Box
           ref={portfolioRef}
           className="section"
-          sx={{ backgroundColor: "#ebebeb8f", padding: "5rem 0px" }}
+          sx={{ backgroundColor: "#212121", padding: "5rem 0px" }}
         >
           <Portfolio />
         </Box>
 
         {/* Contact */}
         <Container maxWidth="xl">
-          <Box ref={contactRef} className="section">
-            <Typography>
-              What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s, when an
-              unknown
-            </Typography>
-          </Box>
+          <Box ref={contactRef} className="section"></Box>
+          <Canvas>
+            <ambientLight />
+            <pointLight position={[10, 10, 10]} />
+            <CanvasBox position={[-1.2, 0, 0]} />
+            <CanvasBox position={[1.2, 0, 0]} />
+          </Canvas>
         </Container>
       </Box>
 

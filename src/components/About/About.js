@@ -20,7 +20,7 @@ export default function About() {
           }}
         >
           <Typography
-            variant="h1"
+            variant="h2"
             sx={{
               fontWeight: "500",
             }}
@@ -33,7 +33,7 @@ export default function About() {
           <ReactTypingEffect
             eraseSpeed={10}
             speed={100}
-            text={["Hello, I'm XMMEENN."]}
+            text={["Hello, I'm X.MMEENN !"]}
           />
         </Typography>
 
@@ -66,47 +66,58 @@ export default function About() {
             display: "flex",
             flexWrap: "wrap",
             alignContent: "center",
-            justifyContent: "space-between",
+            justifyContent: "space-around",
+            gap: "1rem",
           }}
         >
           <img
-            style={{ objectFit: "contain", width: "100px" }}
+            style={{ objectFit: "contain", width: "60px" }}
             src={require("../../asset/images/skill/html.png")}
             alt="XMMEENN"
           />
           <img
-            style={{ objectFit: "contain", width: "100px" }}
+            style={{ objectFit: "contain", width: "60px" }}
             src={require("../../asset/images/skill/css.png")}
             alt="XMMEENN"
           />
           <img
-            style={{ objectFit: "contain", width: "100px" }}
+            style={{ objectFit: "contain", width: "60px" }}
             src={require("../../asset/images/skill/js.png")}
             alt="XMMEENN"
           />
           <img
-            style={{ objectFit: "contain", width: "100px" }}
+            style={{ objectFit: "contain", width: "60px" }}
             src={require("../../asset/images/skill/php.png")}
             alt="XMMEENN"
           />
           <img
-            style={{ objectFit: "contain", width: "100px" }}
+            style={{ objectFit: "contain", width: "60px" }}
             src={require("../../asset/images/skill/vue.png")}
             alt="XMMEENN"
           />
           <img
-            style={{ objectFit: "contain", width: "100px" }}
+            style={{ objectFit: "contain", width: "60px" }}
+            src={require("../../asset/images/skill/vuetify.png")}
+            alt="XMMEENN"
+          />
+          <img
+            style={{ objectFit: "contain", width: "60px" }}
             src={require("../../asset/images/skill/nuxt.png")}
             alt="XMMEENN"
           />
           <img
-            style={{ objectFit: "contain", width: "100px" }}
+            style={{ objectFit: "contain", width: "60px" }}
             src={require("../../asset/images/skill/laravel.png")}
             alt="XMMEENN"
           />
           <img
-            style={{ objectFit: "contain", width: "100px" }}
+            style={{ objectFit: "contain", width: "60px" }}
             src={require("../../asset/images/skill/node.png")}
+            alt="XMMEENN"
+          />
+          <img
+            style={{ objectFit: "contain", width: "60px" }}
+            src={require("../../asset/images/skill/react.png")}
             alt="XMMEENN"
           />
         </Box>
